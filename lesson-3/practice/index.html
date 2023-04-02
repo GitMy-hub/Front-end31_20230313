@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="shortcut icon" href="./icons/favicon.png" type="image/x-icon">
+    <title>App</title>
+
+</head>
+
+<body>
+    <!-- !ATTR class - id -->
+    <!-- <h1 id="hello">Hello</h1>
+    <h1 class="world">Word</h1>
+    <h1>!</h1>
+    <h2 class="world">Not world</h2> -->
+    <div id="app">
+    <!-- * BEM -->
+    <!-- secondary-block__element -->
+    <!-- * Block -->
+    <header class="header">
+     <!-- * Element -->
+        <img 
+          class="header__logo" 
+          src="./images/logo.png" 
+          alt="There is nothing here yet"
+         />
+
+         <input type="text" class="header__input"/>
+
+         <nav class="nav">
+            <!-- <ul class="nav_list"> -->
+                <!-- <li class="list__item"> -->
+                    <a href="#" class="nav-link">Home</a>
+                <!-- </li> -->
+
+                <!-- <li class="list__item"> -->
+                    <a href="#" class="nav-link">About us</a>
+                <!-- </li> -->
+
+                <!-- <li class="list__item"> -->
+                    <a href="#" class="nav-link">Login</a>
+                    <!-- </li> -->
+
+
+            <!-- </ul> -->
+         </nav>
+    </header>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="filter">
+                <span class="filter__text">Samsung</span>
+                <input class="filter__checkbox" type="checkbox">
+            </div>
+
+            <div class="filter">
+                <span class="filter__text">Xiaomi</span>
+                <input class="filter__checkbox" type="checkbox">
+            </div>
+
+            <div class="filter">
+                <span class="filter__text">Apple</span>
+                <input class="filter__checkbox" type="checkbox">
+            </div>
+        </aside>
+        <main class="main">
+            <div class="product">
+                <h2>ELEMENT</h2>
+            </div>
+            <div class="product">
+                <h2>ELEMENT</h2>
+            </div>
+        </main>
+    </div>
+   
+    <footer class="footer"></footer>
+</body>
+</html>
+

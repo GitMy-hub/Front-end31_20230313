@@ -1,0 +1,25 @@
+/*
+* tag/selector(className , id , ...) {
+    *      ... SCOPE ...
+    *}
+*/
+
+/* . - selector -> find by className */
+/* # - selector -> find element by id */
+
+header {
+background: darkmagenta;
+color: gold;
+}
+
+aside {
+    background: blueviolet;
+}
+
+main {
+    background: orchid;
+}
+
+footer {
+    background: brown;
+}

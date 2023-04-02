@@ -1,0 +1,158 @@
+@font-face {
+    font-family: "roboto";
+    src: url("/lesson_5/public/fonts/Roboto/Roboto-Medium.ttf");
+}
+
+@font-face {
+    font-family: "montserrat";
+    src: url("/lesson_5/public/fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf");
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;     
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#app {
+    font-family: "montserrat";
+}
+
+.img-wrapper {
+    display: flex;
+    width: 30%;
+}
+
+.img {
+    width: 7rem;
+}
+
+.header {
+    padding: .6rem;
+    display: flex;
+    background: rgb(187, 17, 17);
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav {
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    padding: 1rem;
+    color: aliceblue;
+    width: 10%;
+    background: rgb(61, 40, 72);
+}
+
+.filter {
+    margin-top: .9rem;
+}
+
+.product {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    padding: .8rem;
+
+}
+
+.product__img-wrapper {
+    margin-top: 3rem;
+    margin-left: 5rem;
+    float: left;
+}
+
+.product__title {
+    display: flex;
+    justify-self: center;
+    width: 30rem;
+}
+
+.product__info {
+    width: 100%;
+    font-family: "roboto";
+}
+
+.product__img {
+    width: 11rem;
+    margin: 3rem;
+}
+
+.product__imgS {
+    width: 14rem;
+    margin: 2rem;
+}
+
+.table {
+    display: flex;
+    margin-top: 2rem;
+    flex-direction: column;
+    width: 100%;
+}
+
+.table__row {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.table__col {
+    width: 100%;
+    border-bottom: 1px solid grey;
+    padding: .8rem;
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+}
+
+.button {
+    cursor: pointer;
+    padding: 0.3rem 4rem;
+    border: none;
+    background: lightgray;
+    font-size: 1rem;
+    border-radius: .2rem;
+    transition: ease 900ms;
+}
+
+.button:hover {
+    background: #232323;
+    color: antiquewhite;
+    font-size: 1rem;
+    border-radius: .2rem;
+    box-shadow: 2px 4px 4px 2px rgb(20, 15, 14);
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    justify-content: space-between;
+    background: rgb(187, 23, 23);
+}
+
+
+
+

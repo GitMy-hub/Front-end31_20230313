@@ -1,0 +1,77 @@
+/*  * -> SELECT ALL */
+/*
+
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    color: black;
+}
+
+a {
+    color: rgb(15, 14, 15);
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+background: rgb(168, 162, 168);
+padding: 10px;
+}
+
+.header__logo {
+    width: 90px;
+}
+
+.header__input {
+    padding: 2px;
+    border: none;
+    background: wheat;
+}
+
+.nav {
+    margin: 10px;
+    display: inline-block;
+}   
+
+ .nav-link {
+    margin-left: 15px ;
+ }
+
+ .sidebar , .main {
+    height: 100%;
+ }
+
+.sidebar {
+background: rgb(153, 126, 126);
+width: 20%;
+float: left;
+}
+
+.container {
+    height: 75vh;
+}
+
+.main {
+background: rgb(125, 118, 125);
+float: right;
+width: 80%;
+text-align: center;
+}
+
+.image {
+    width: 500px;
+}
+
+h12 {
+    display: inline;
+}
+
+.footer {
+    padding: 30px;
+    background: rgb(82, 86, 86);
+}

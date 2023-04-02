@@ -1,0 +1,82 @@
+/*  * -> SELECT ALL */
+/*
+
+*/
+*{
+    margin: 0px;
+    /* margin-top: 0px;
+    margin-left: 0px;
+    margin-bottom: 0px;
+    margin-right: 0px; */
+    padding: 0px;
+    /* padding-top: 0px;
+    padding-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px; */
+    box-sizing: border-box;
+}
+
+a {
+    color: rgb(155, 145, 164);
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.header {
+background: darkmagenta;
+padding: 10px;
+}
+
+.header__logo {
+    width: 90px;
+}
+
+.header__input {
+    padding: 5px;
+    border: none;
+    background: inherit;
+    color: aquamarine;
+    border-bottom: 2px solid rgb(41, 36, 36);
+}
+
+.nav {
+    display: inline-block; 
+}
+
+ .nav-link {
+    margin-left: 15px ;
+ }
+
+ .sidebar , .main {
+    height: 100%;
+ }
+
+.sidebar {
+background: darkred;
+width: 20%;
+float: left;
+}
+
+/* 100vh - 1screen */
+.container {
+    height: 75vh;
+}
+
+.main {
+background: violet;
+float: right;
+width: 80%;
+text-align: center;
+}
+
+h2 , .product {
+    display: inline;
+}
+
+.footer {
+    padding: 30px;
+    background: darkcyan;
+}

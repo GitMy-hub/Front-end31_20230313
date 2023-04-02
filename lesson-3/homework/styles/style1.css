@@ -1,0 +1,28 @@
+/*  * -> SELECT ALL */
+/*
+
+*/
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    border: 2px solid rgb(243, 237, 237);
+    background: rgb(195, 154, 154);
+}
+
+h2 {
+    background: darkmagenta;
+}
+
+/* select by className */
+/* .className {} */
+/* #id {} */
+.world {
+    color: antiquewhite;
+}
+
+#hello {
+    color: rgb(111, 30, 210);
+}

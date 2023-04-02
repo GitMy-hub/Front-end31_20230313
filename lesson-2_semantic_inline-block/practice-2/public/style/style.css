@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background: violet;
+}
+
+main {
+    background: rgb(198, 54, 198);
+}
+
+footer {
+    background: darkmagenta;
+}

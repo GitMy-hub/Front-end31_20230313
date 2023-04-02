@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    background: rgb(107, 147, 174);
+}
+
+main {
+    background: white;
+}
+
+footer {
+    background: rgb(191, 203, 237);
+}
+span {
+    color: brown;
+}
