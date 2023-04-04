@@ -1,0 +1,103 @@
+@import url("./variables.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+#app {
+    font-family: var(--primary-ff);
+}
+
+.header , .nav  {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header {
+    padding: var(--padding-s);
+    align-items: center;
+    text-transform: uppercase;
+}
+
+.nav {
+    width: 30%;
+}
+
+.input {
+    border: none;
+    border-bottom: 1px solid var(--primary-bg) ;
+    padding: .2rem 2rem;
+} 
+
+.main {
+    
+}
+
+.carousel , .post__img-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+/* .arrow-left , .arrow-right {
+    position: relative;
+} */
+
+.carousel__image {
+    width: 100%;
+}
+
+.blog {
+
+}
+
+.post {
+    padding: var(--padding-m);
+
+}
+
+.post__img {
+    width: 90%;
+}
+
+.post__title-wrapper {
+    display: flex;
+    justify-content: center;
+    padding: var(--padding-s);
+}
+
+.post__paragraph,.button-wrapper {
+    margin-top: var(--margin-m);
+}
+
+.button-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    padding: .3rem 3rem;
+    border: none;
+    background: var(--primary-bg);
+    color: var(--primary-color);
+    font-size: var(--fs-m);
+    border-radius: .5rem;
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: var(--padding-m);
+} 

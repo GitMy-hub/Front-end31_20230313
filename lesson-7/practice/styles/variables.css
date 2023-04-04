@@ -1,0 +1,48 @@
+@font-face {
+    font-family: "OS";
+    src: url("../public/fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Roboto";
+    src: url("../public/fonts/Roboto/Roboto-Regular.ttf");
+}
+
+:root {
+    /* background */
+    --background-grey :rgba(30, 40, 50, 0.05);
+    --background-white : rgb(229, 229, 229);
+    --background-black : rgb(0, 0, 0);
+    
+    /* text color */
+    --text-color-black:rgb(0, 0, 0);
+    --text-color-grey: rgb(255, 255, 255);
+    
+    /* paddings */
+
+    /* margins */
+
+
+    /* font-size */
+    --font-size-xxxxl: 74px;
+    --font-size-xxxl: 67px;
+    --font-size-xxl: 50px;
+    --font-size-xl: 37px;
+    --font-size-x: 34px;
+    --font-size-l: 28px;
+    --font-size-m: 21px;
+    --font-size-s: 18px;
+    --font-size-xs: 16px;
+    --font-size-xxs: 14px;
+
+    /* font-weigh */
+    --font-weigh-bold: bold;
+    --font-weigh-medium: medium;
+    --font-weigh-light: light;
+
+    /* font-family */
+    --ff-roboto: "roboto";
+    --ff-OS: "OS";
+
+    /* images */
+}

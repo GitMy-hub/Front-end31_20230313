@@ -1,0 +1,41 @@
+<> - without angel brackets 
+Get repo from gitHub
+
+git clone <hash> - clone remote repo
+
+Algorithm / flow -> post data into repo
+git init - initialize project as a git repo
+-------------------------------------------
+Project recives status ,also as a files 
+U - untracked 
+    |
+    _
+git add <file's_name>
+git add . - add all files in the current work directory
+
+A - Added
+    |
+    _ 
+
+M - modified 
+
+git status - project status 
+
+Commited 
+
+git commit -m "<your_message>" - project commited 
+
+git log - get console with logged data
+
+git branch <branch_name> - create new branch
+git switch -c <branch_name> - create new branch
+
+git chekout <target_branch_name> - change branch 
+git switch <target_branch_name> - change branch 
+
+git merge - merge
+
+.gitignore - file to ignore file
+
+git branch -m <new_branch-name> - alter branch name 
+git pull - recive data from repo (sync with repo)

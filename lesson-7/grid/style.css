@@ -1,0 +1,22 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.grid {
+    display: grid;
+    /* grid-template-columns */
+    /* grid-template-tows */
+    /* 1fr */
+    /* grid-template-columns:1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3 ,200px);
+    /* grid-template-rows: 2fr 1fr 4fr; */
+}
+
+.box {
+    border: 2px solid gold;
+    height: 4rem;
+    width: 4rem;
+    background: darkmagenta;
+}

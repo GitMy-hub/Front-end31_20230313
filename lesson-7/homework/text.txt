@@ -1,0 +1,7 @@
+1) Find figma mark-up (pick )
+SRC: 
+https://www.figma.com/community/category/web_design
+DEFAULT :
+https://www.figma.com/file/JRiXC9ufNkBbde3r00WO2I/Computer-Science-Learning-Platform-%E2%80%94-Webflow-Landing-Page-Design-(Community)?node-id=118-8546&t=Zj6KtQlkAjuzHWOF-0
+2) HTML / CSS 
+3) Github

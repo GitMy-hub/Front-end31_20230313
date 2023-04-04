@@ -1,0 +1,61 @@
+@import url("./variables.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    color : inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style-type: none;
+}
+
+#app {
+    font-family: var(--primary-ff);
+    color: var(--secondary-font-color);
+}
+
+.header {
+    padding: var(--padding-xl);
+    background: fuchsia;
+}
+
+.container {
+    display: flex;
+    height: 85vh;
+}
+
+.sidebar , .product , .footer {
+    background: var(--main-bg);
+
+}
+
+.sidebar {
+    width: 25%;
+}
+
+.main {
+    background: indigo;
+    width: 75%;
+    display: flex;
+}
+
+.product {
+    padding: 3rem;
+    height: 6rem;
+    margin: 1rem;
+}
+
+.footer {
+    padding: var(--padding-xl);
+}
+
+
+/* .header--orange {
+    background: orange;
+} */
