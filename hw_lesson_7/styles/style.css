@@ -1,0 +1,228 @@
+@import url(./variabless.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+li {
+    list-style-type: none;
+}
+
+#app {
+    background: linear-gradient(113.49deg,var(--backgraund-primary) , var(--backgraund-secondary));
+    width: 1440px;
+    height: 7724px;;
+}
+
+/* header */
+
+.header {
+    position: absolute;
+    width: 1197px;
+    height: 70px;
+    left: 122px;
+    top: 10px; 
+}
+
+    /* PsychoArt */
+
+.header__title {
+    position: absolute;
+    width: 133px;
+    height: 38px;
+    top: 26px;
+
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 38px;
+    /* identical to box height */
+}
+
+p {
+    color: #FFFFFF;
+}
+
+p span {
+    /* pp2 purple */
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+    /* search */
+
+.header__seach {
+    /* search */
+    position: absolute;
+    width: 384px;
+    height: 50px;
+    left: 202px;
+    top: 20px;
+}
+
+.header__seach-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    left: 215px;
+    top: 30px;
+}
+
+.header__seach-title {
+    position: absolute;
+    width: 292px;
+    height: 30px;
+    left: 245px;
+    top: 30px;
+    
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    /* half white */
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.header__input-seach {
+    position: absolute;
+    width: 384px;
+    height: 50px;
+    left: 202px;
+    top: 20px;
+    font-size: 30px;
+    text-align: center;
+    background: inherit;
+    border: none;
+    border-radius: 1rem;
+    background: rgba(255, 255, 255, 0.064);
+}
+
+.headeer__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    gap: 40px;
+    position: absolute;
+    width: 541px;
+    height: 70px;
+    left: 656px;
+    top: 10px;
+}
+
+.nav-link {
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    /* identical to box height */
+    
+    color: #FFFFFF;
+    
+
+}
+
+.button-select-wallet {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 50px;
+    gap: 10px;
+    font-family: var(--primary-font);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    background: linear-gradient(214.02deg, #B75CFF 6.04%, #671AE4 92.95%);
+    border-radius: 10px;
+    /* identical to box height */
+    color: #FFFFFF;
+}
+
+.img__rectangle-21 {
+    position: absolute;
+    width: 287px;
+    height: 412px;
+    left: 1132px;
+    top: 239px;
+    border-radius: 10px;
+}
+
+.img__rectangle-16 {
+    position: absolute;
+    width: 287px;
+    height: 408px;
+    left: 830px;
+    top: 180px;
+    border-radius: 10px;
+}
+
+.img__rectangle-19 {
+    position: absolute;
+    width: 287px;
+    height: 320px;
+    left: 830px;
+    top: 603px;
+    border-radius: 10px;
+}
+
+.img__rectangle-20 {
+    position: absolute;
+    width: 279px;
+    height: 359px;
+    left: 830px;
+    top: 838px;
+    border-radius: 10px;
+}
+
+.img__rectangle-18 {
+    position: absolute;
+    width: 287px;
+    height: 327px;
+    left: 528px;
+    top: 970px;
+    border-radius: 10px;
+}
+
+
+.img__rectangle-17 {
+    position: absolute;
+    width: 287px;
+    height: 420px;
+    left: 528px;
+    top: 535px;
+    border-radius: 10px;
+}
+
+.img__rectangle-15 {
+    position: absolute;
+    width: 287px;
+    height: 390px;
+    left: 528px;
+    top: 130px;
+    border-radius: 10px;
+}

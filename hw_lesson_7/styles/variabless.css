@@ -1,0 +1,15 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../publice/fonts/Poppins/Poppins-Regular.ttf");
+}
+
+:root {
+
+    /* backgraund - Rectangle*/
+    --backgraund-primary : #984D38 -30.3%;
+    --backgraund-secondary : #181E41 58.12%;
+
+    /* font */
+    --primary-font : "Poppins";
+
+}
